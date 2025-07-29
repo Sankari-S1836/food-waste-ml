@@ -21,7 +21,7 @@ Globally, 1.3 billion tons of food go to waste every year. A large portion of th
 - 🧑‍💻 **User Login & Registration** – Simple authentication
 <img width="350" height="600" alt="image (3)" src="https://github.com/user-attachments/assets/10085784-f64a-4756-986a-f14cbf96b88a" />
 
-<img width="350" height="600" alt="image (2)" src="https://github.com/user-attachments/assets/33b77af5-cbbe-4c38-beb9-1e5dd22a1f59" />
+<img width="350" height="500" alt="image (2)" src="https://github.com/user-attachments/assets/33b77af5-cbbe-4c38-beb9-1e5dd22a1f59" />
 
 - **Menus**- To navigate add,update,remove items and view dashboard
   
