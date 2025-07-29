@@ -89,7 +89,7 @@ Analyze the output to support food planning
    cd food-waste-ml
 
 ## 👥 Team Members
-1.Sankari S
-2.Roshini S
-3.Akshaya Sree S
+1.Sankari.S
+2.Roshini.S
+3.Akshaya Sree.S
 
