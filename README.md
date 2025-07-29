@@ -19,23 +19,29 @@ Globally, 1.3 billion tons of food go to waste every year. A large portion of th
 ### 🌐 Pantry Tracker Website (HTML-based Front-End)
 
 - 🧑‍💻 **User Login & Registration** – Simple authentication
-<img width="1135" height="826" alt="image (3)" src="https://github.com/user-attachments/assets/10085784-f64a-4756-986a-f14cbf96b88a" />
+<img width="350" height="600" alt="image (3)" src="https://github.com/user-attachments/assets/10085784-f64a-4756-986a-f14cbf96b88a" />
+
 <img width="983" height="841" alt="image (2)" src="https://github.com/user-attachments/assets/33b77af5-cbbe-4c38-beb9-1e5dd22a1f59" />
 
 - **Menus**- To navigate add,update,remove items and view dashboard
+  
   <img width="1135" height="901" alt="image (1)" src="https://github.com/user-attachments/assets/cca0df02-f958-4f78-987f-ecb8cb8383c0" />
 
 
 - 📦 **Add Pantry Items** – Name, quantity, and expiry date
+  
   <img width="910" height="642" alt="image (6)" src="https://github.com/user-attachments/assets/b67a2783-0c6e-4efc-9adf-4d6ab9ffa81e" />
 
 - 🔄 **Update Stocks** – Adjust quantity when used
+  
   <img width="1815" height="723" alt="image (4)" src="https://github.com/user-attachments/assets/23bc11d9-5174-4059-b8b2-92df4c62629a" />
 
-- 📅 **Remove items** – To delete the items that fot finished or entered incorrectly.
+- 📅 **Remove items** – To delete the items that fot finished or entered incorrectly
+  
   <img width="1771" height="569" alt="image (5)" src="https://github.com/user-attachments/assets/ce394dfe-9983-44ee-8df2-f75cc1a5e9dd" />
 
 - 📊 **Dashboard View** – Lists current pantry contents visually
+  
   <img width="1815" height="806" alt="image (7)" src="https://github.com/user-attachments/assets/5670df7c-f82f-40e7-b75e-ff69e5083223" />
 
 
