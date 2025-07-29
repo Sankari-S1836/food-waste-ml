@@ -88,3 +88,8 @@ Analyze the output to support food planning
    git clone https://github.com/Sankari-S1836/food-waste-ml
    cd food-waste-ml
 
+## 👥 Team Members
+1.Sankari S
+2.Roshini S
+3.Akshaya Sree S
+
