@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pantry Tracker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f7f7f7;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 500px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        table {
+            width: 90%;
+            margin: 40px auto;
+            border-collapse: collapse;
+            background: white;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        th {
+            background: #eee;
+        }
+    </style>
+</head>
+<body>
+
+<h1>🧺 My Pantry Tracker</h1>
+
+<form action="/add" method="POST">
+    <label for="name">Item Name:</label>
+    <input type="text" name="name" required>
+
+    <label for="quantity">Quantity:</label>
+    <input type="number" name="quantity" required>
+
+    <label for="category">Category:</label>
+    <select name="category" required>
+        <option value="Grocery">Grocery</option>
+        <option value="Dairy">Dairy</option>
+        <option value="Snacks">Snacks</option>
+        <option value="Beverage">Beverage</option>
+        <option value="Other">Other</option>
+    </select>
+
+    <label for="expiry">Expiry Date:</label>
+    <input type="date" name="expiry" required>
+
+    <button type="submit">Add Item</button>
+</form>
+
+{% if items %}
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Qty</th>
+        <th>Category</th>
+        <th>Expiry</th>
+    </tr>
+    {% for item in items %}
+    <tr>
+        <td>{{ item[0] }}</td>
+        <td>{{ item[1] }}</td>
+        <td>{{ item[2] }}</td>
+        <td>{{ item[3] }}</td>
+        <td>{{ item[4] }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% else %}
+<p style="text-align:center;">No items in pantry yet!</p>
+{% endif %}
+
+</body>
+</html>
