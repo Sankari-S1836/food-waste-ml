@@ -18,6 +18,8 @@ Globally, 1.3 billion tons of food go to waste every year. A large portion of th
 
 ### 🌐 Pantry Tracker Website (HTML-based Front-End)
 - 🧑‍💻 **User Login & Registration** – Simple authentication
+<img width="1135" height="826" alt="image (3)" src="https://github.com/user-attachments/assets/10085784-f64a-4756-986a-f14cbf96b88a" />
+
 - 📦 **Add Pantry Items** – Name, quantity, and expiry date
 - 🔄 **Update Stocks** – Adjust quantity when used
 - 📅 **Track Expiry Dates** – See which items are nearing expiration
